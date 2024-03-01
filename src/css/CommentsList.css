@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.General {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7cbfb8;
+    padding: 100px;
+
+}
+
+.windowNewComment {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;  
+}
+
+.allNewComments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.oneNewComment {
+    display: flex;
+    width: calc(100% - 24px);
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #d3e2a7;
+    padding: 10px;
+}
+
+.contentNewComment {
+    display: flex;
+    max-width: 70%;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    color: #000;
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+.buttonAddComment {
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #226463;
+    color:#d3e2a7;
+    border-radius: 5px;
+}
+
+.buttonAddComment:hover {
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #d3e2a7;
+    color:#226463;
+    border-radius: 5px;
+}
+
+.buttonDelComments {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #226463;
+    color:#d3e2a7;
+    border-radius: 5px;
+}
+
+.buttonDelComments:hover {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #d3e2a7;
+    color:#226463;
+    border-radius: 5px;
+}
