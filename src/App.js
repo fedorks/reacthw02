@@ -1,8 +1,14 @@
-import './App.css';
-import CommentsList from './comp/CommentsList';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Content from './components/Content';
 
-function App() {
-  return <CommentsList />;
+export default function App() {
+  return (
+    <React.Fragment>
+      <Header />
+      <Content />
+      <Footer />
+    </React.Fragment>
+  );
 }
-
-export default App;
